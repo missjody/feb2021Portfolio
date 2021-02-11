@@ -1,0 +1,517 @@
+
+html {
+  box-sizing: border-box;
+}
+*,*::before,*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+}
+.wave-container {
+  background: #5DD39E;
+}
+
+.wave-container > svg {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+
+/* .child {
+  position: absolute;
+} */
+
+
+
+#mern{
+  background-color: #BCE784;
+  margin-top: -22.5rem;
+  padding-top: 25rem;
+}
+
+#mernFont {
+  color: #525174;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+#grad {
+  background-color: #348AA7;
+  margin-top: -20rem;
+  padding-top: 15rem;
+}
+
+#gradFont {
+  color: #5DD39E;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+#course {
+  margin-top: -20rem;
+  padding-top: 15rem ;
+  background-color: #525174;
+}
+
+#thanks {
+  margin-top: -15.5rem;
+  padding-top: 15rem;
+}
+
+#courseFont {
+  color: #BCE784;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+
+#thanksFont {
+  padding-left: 8rem;
+  padding-right: 8rem;
+  padding-bottom: 5rem;
+  color: #513b56; 
+}
+
+body {
+  background-color: #5DD39E;
+}
+.card {
+	height: 50%
+}
+
+#imgContainer {
+  position: relative;
+  z-index: 0;
+  margin-left: 25%
+}
+
+#profileImg {
+  border-radius: 2rem;
+  height: auto;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#hello {
+  margin-top: 6rem;
+}
+
+#myNameIs {
+  margin-top: -2.5rem;
+  line-height: 0%;
+}
+
+.col {
+  z-index: 1;
+}
+
+#name {
+  margin-top: 0rem;
+  line-height: 0%;
+  color: #BCE784;
+  position: absolute;
+  z-index: 1;
+}
+
+.collection a.collection-item {
+color: #513B56;
+background-color: #BCE784;
+font-family: 'Dosis', sans-serif;
+font-size: x-large;
+}
+
+/* .container {
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+.App {
+  text-align: center;
+}
+
+h1, h2, h3, h4, p {
+  font-family: 'IM Fell DW Pica', serif;
+  color: #FFFFFF;
+}
+
+h5 {
+  font-family: 'IM Fell DW Pica', serif;
+  color: #BCE784;
+}
+
+i.hamburger {
+  color: #bce784;
+}
+
+p {
+  font-family: 'IM Fell DW Pica', serif;
+  color: #348AA7;
+}
+
+#darkOrange {
+  color: #525174;
+  font-size: xxx-large;
+}
+
+.contact-font {
+  color: #525174;
+  font-size: x-large;
+}
+
+#darkBlack {
+  color: #513B56;
+}
+
+.sidenav {
+  background-color: #513B56;
+}
+
+img.responsive-img {
+  margin-top: 3rem;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.project-font {
+  font-family: 'Dosis', sans-serif;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #BCE784;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.project-image {
+  height: 50%
+}
+
+nav .nav-wrapper  {
+  background: #513B56;
+  color: #BCE784 !important;
+}
+
+@media screen and (max-width: 2560px) {
+
+  /* #imgContainer {
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+  } */
+    
+  #mern{
+    background-color: #BCE784;
+    margin-top: -37.8rem;
+    padding-top: 37rem;
+  }
+
+  #grad {
+    background-color: #348AA7;
+    margin-top: -32rem;
+    padding-top: 32rem;
+  }
+
+  #course {
+    margin-top: -31rem;
+    padding-top: 23rem ;
+    background-color: #525174;
+  }
+
+  #thanks {
+    margin-top: -25.5rem;
+    padding-top: 25rem;
+  }
+
+}
+
+@media screen and (max-width: 1920px) {
+
+  #mern{
+    background-color: #BCE784;
+    margin-top: -28rem;
+    padding-top: 28rem;
+  }
+  
+  #grad {
+    background-color: #348AA7;
+    margin-top: -24rem;
+    padding-top: 18rem;
+  }
+  
+  #course {
+    margin-top: -25rem;
+    padding-top: 18rem ;
+    background-color: #525174;
+  }
+  
+  #thanks {
+    margin-top: -25rem;
+    padding-top: 25rem;
+  }
+  
+  }
+
+@media screen and (max-width: 1628px) {
+
+  /* #imgContainer {
+    left: 25rem;
+  } */
+  
+  #mern{
+    background-color: #BCE784;
+    margin-top: -24rem;
+    padding-top: 26rem;
+  }
+  
+  #grad {
+    background-color: #348AA7;
+    margin-top: -25rem;
+    padding-top: 20rem;
+  }
+  
+  #course {
+    margin-top: -25rem;
+    padding-top: 15rem ;
+    background-color: #525174;
+  }
+  
+  #thanks {
+    margin-top: -25rem;
+    padding-top: 25rem;
+  }
+  
+  }
+
+  @media screen and (max-width: 1440px) {
+
+    /* #imgContainer {
+      left: 23rem;
+      top: -12rem;
+    } */
+    
+    #mern{
+      background-color: #BCE784;
+      margin-top: -21rem;
+      padding-top: 23rem;
+    }
+    
+    #grad {
+      background-color: #348AA7;
+      margin-top: -22rem;
+      padding-top: 18rem;
+    }
+    
+    #course {
+      margin-top: -22rem;
+      padding-top: 15rem ;
+      background-color: #525174;
+    }
+    
+    #thanks {
+      margin-top: -22rem;
+      padding-top: 22rem;
+    }
+    
+    }
+
+    @media screen and (max-width: 1280px) {
+/* 
+      #imgContainer {
+        left: 18rem;
+        top: -11rem;
+      } */
+      
+      #mern{
+        background-color: #BCE784;
+        margin-top: -18.7rem;
+        padding-top: 23rem;
+      }
+      
+      #grad {
+        background-color: #348AA7;
+        margin-top: -20rem;
+        padding-top: 18rem;
+      }
+      
+      #course {
+        margin-top: -20rem;
+        padding-top: 15rem ;
+        background-color: #525174;
+      }
+      
+      #thanks {
+        margin-top: -20rem;
+        padding-top: 22rem;
+      }
+      
+      }
+
+    @media screen and (max-width: 1024px) {
+      
+      #mern{
+        background-color: #BCE784;
+        margin-top: -15.7rem;
+        padding-top: 15rem;
+      }
+      
+      #grad {
+        background-color: #348AA7;
+        margin-top: -15rem;
+        padding-top: 11rem;
+      }
+      
+      #course {
+        margin-top: -17rem;
+        padding-top: 13rem ;
+        background-color: #525174;
+      }
+      
+      #thanks {
+        margin-top: -17rem;
+        padding-top: 17rem;
+      }
+      
+      }
+
+@media screen and (max-width: 768px) {
+  /* #imgContainer {
+    right: 0rem;
+    left: 24rem;
+  } */
+
+  #mern{
+    background-color: #BCE784;
+    margin-top: -12.1rem;
+    padding-top: 10rem;
+  }
+  
+  #grad {
+    background-color: #348AA7;
+    margin-top: -13rem;
+    padding-top: 9rem;
+  }
+  
+  #course {
+    margin-top: -13rem;
+    padding-top: 10rem ;
+    background-color: #525174;
+  }
+  
+  #thanks {
+    margin-top: -12.1rem;
+    padding-top: 17rem;
+  }
+  #mernFont, #gradFont, #courseFont, #thanksFont {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 2em; 
+  }
+}
+
+
+
+@media screen and (max-width: 425px) {
+  /* #imgContainer {
+    right: 0rem;
+    left: 5rem;
+    top: 1rem;
+  } */
+
+  #mern{
+    background-color: #BCE784;
+    margin-top: -6.5rem;
+    padding-top: 10rem;
+  }
+
+  #mernFont {
+    color: #525174;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 2em;
+  }
+
+  #courseFont {
+    color: #BCE784;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 2em;
+  }
+  
+  
+  #thanksFont {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 2rem;
+    padding-bottom: 5rem;
+    color: #513b56; 
+  }
+  
+  
+  #grad {
+    background-color: #348AA7;
+    margin-top: -7rem;
+    padding-top: 9rem;
+  }
+
+  #gradFont {
+    color: #5DD39E;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 2em;
+  }
+  
+  #course {
+    margin-top: -7rem;
+    padding-top: 8rem ;
+    background-color: #525174;
+  }
+  
+  #thanks {
+    margin-top: -7rem;
+    padding-top: 8rem;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+
+
+  #mern{
+    background-color: #BCE784;
+    margin-top: -5rem;
+    padding-top: 5rem;
+  }
+  
+  #grad {
+    background-color: #348AA7;
+    margin-top: -6rem;
+    padding-top: 3rem;
+  }
+
+  #course {
+    margin-top: -6rem;
+    padding-top: 3rem ;
+    background-color: #525174;
+  }
+  
+  #thanks {
+    margin-top: -6rem;
+    padding-top: 3rem;
+  }
+}
